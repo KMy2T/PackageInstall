@@ -9,9 +9,17 @@ termux-change-repo
 ```
 pkg update -y && pkg upgrade -y
 pkg install git python-pip
-python -m pip install -r requirements.txt
+pkg install python
+pkg install git
+pip install bs4
+pip install rich
+pip install requests
+pip install mechanize
+pip install futures
+pkg install cython
+pip install stdiomask
 ```
 
 
-### When will the followers arrive?
-Followers will arrive to your account in less than 30 minutes, but it can take more than 30 minutes if the server takes a long time to process followers.
+### how to use?
+
